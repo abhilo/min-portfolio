@@ -121,6 +121,34 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "UofT Archives",
+      href: "https://chatcollect.com",
+      dates: "Jan 2024 - Feb 2024",
+      active: true,
+      description:
+        "Playlist ocnverter.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Stripe",
+        "Shadcn UI",
+        "Magic UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://chatcollect.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/course.png",
+      video:
+        "",
+    },
+    {
       title: "Songwarp",
       href: "https://chatcollect.com",
       dates: "Jan 2024 - Feb 2024",
@@ -144,10 +172,39 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/songwarp.png",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "",
     },
+     {
+      title: "Graphimaze",
+      href: "https://chatcollect.com",
+      dates: "Jan 2024 - Feb 2024",
+      active: true,
+      description:
+        "Playlist ocnverter.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Stripe",
+        "Shadcn UI",
+        "Magic UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://chatcollect.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/maze.png",
+      video:
+        "",
+    },
+         
     
   ],
   // hackathons: [
