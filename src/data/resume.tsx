@@ -77,10 +77,10 @@ export const DATA = {
       location: "Waterloo, ON",
       title: "Software Developer Intern",
       logoUrl: "/manulife.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      start: "April 2025",
+      end: "August 2025",
       description:
-        "Sampple",
+        "Incoming intern...",
     },
     {
       company: "IBM",
@@ -89,10 +89,10 @@ export const DATA = {
       location: "Toronto, ON",
       title: "Software Developer Intern",
       logoUrl: "/ibm.png",
-      start: "January 2021",
-      end: "April 2021",
+      start: "January 2025",
+      end: "April 2025",
       description:
-        "Sanoke",
+        "Contributed to the ICP Payments team as a backend developer, building features for a high-scale, API-driven payment processing platform and automating AWS infrastructure using Python and Boto3. Improved deployment reliability through CI/CD with Jenkins and logger testing in an Agile Scrum environment.",
     },
     {
       company: "RBC",
@@ -101,10 +101,10 @@ export const DATA = {
       location: "Toronto, ON",
       title: "Software Developer Intern",
       logoUrl: "/rbc.png",
-      start: "January 2020",
-      end: "April 2020",
+      start: "January 2024",
+      end: "Aug 2024",
       description:
-        "Sample",
+        "Engineered an internal monitoring tool that reports Apache Airflow pipeline failures to over 100 Data and AI staff, saving 250+ hours annually. Built with Python, SQL, and Pandas, the tool tracks 256+ jobs via the Airflow REST API, stores results in PostgreSQL and MySQL, and automates daily email reports through a cron-scheduled SMTP service.",
     },
     
   ],
@@ -126,7 +126,7 @@ export const DATA = {
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
-        "Playlist ocnverter.",
+        "Developed a course review directory for University of Toronto students, enabling detailed feedback on courses and instructors. Migrated from EJS-based server-side rendering to a modern ReactJS client-side architecture for a smoother user experience. Built a scalable backend with Node.js and Express.js, and designed a PostgreSQL database hosted on AWS RDS. Deployed the backend on an AWS EC2 instance to ensure high availability and performance.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -154,16 +154,10 @@ export const DATA = {
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
-        "Playlist ocnverter.",
+        "Developed a Java application using clean architecture to convert playlists between YouTube and Spotify, implementing an algorithm to map and transfer 80+ songs seamlessly. Designed an intuitive Swing interface with drag-and-drop support, real-time progress indicators, and status messages. Adhered to SOLID principles and achieved 90% unit test coverage using JUnit 5.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Java",
+        "Swing",
       ],
       links: [
         {
@@ -182,16 +176,9 @@ export const DATA = {
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
-        "Playlist ocnverter.",
+        "Built a maze pathfinding game in Python using graph theory concepts and data structures, incorporating cycles for increased difficulty and spanning trees to determine optimal paths. Implemented breadth-first search for efficient traversal through over 150 nodes. Designed a functional and interactive user interface with Tkinter, integrating gameplay mechanics for a smooth user experience.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Python",
       ],
       links: [
         {
