@@ -43,7 +43,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/sabhis/",
+        url: "https://www.linkedin.com/in/sabhia",
         icon: Icons.linkedin,
 
         navbar: true,
@@ -82,7 +82,7 @@ export const DATA = {
       start: "April 2025",
       end: "August 2025",
       description:
-        "Incoming intern...",
+        "Assisted in developing and refactoring a full-stack application using React, Node, and Express. Set up Swagger UI for 60+ Express endpoints, enhancing API clarity and speeding up development by 30%. Optimized New Relic Synthetic scripts in Node.js to improve production uptime monitoring. Built a Bash script using netcat to test SSL connectivity and retrieve certificate data across 90K+ endpoints. Developed a Python script to log unauthorized Moogsoft changes for real-time security monitoring.",
     },
     {
       company: "IBM",
@@ -195,7 +195,7 @@ export const DATA = {
              },
     {
       title: "PhysioApp",
-      href: "https://github.com/csc301-2025-y/project-9-physioapp",
+      href: "https://github.com/abhilo/Physioapp.git",
       dates: "Jan 2024 - Apr 2024",
       active: true,
       description:
@@ -215,7 +215,7 @@ export const DATA = {
       links: [
         {
           type: "GitHub",
-          href: "https://github.com/csc301-2025-y/project-9-physioapp",
+          href: "https://github.com/abhilo/Physioapp.git",
           icon: <Icons.globe className="size-3" />,
         },
       ],
