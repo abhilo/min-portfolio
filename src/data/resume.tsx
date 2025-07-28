@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon, NotebookIcon, FileText, MapPin } from "lucide-react";
 
 export const DATA = {
   name: "Abhi Sharma",
@@ -10,13 +10,13 @@ export const DATA = {
   description:
     "Software Engineer.",
   summary:
-    "I’m currently a computer science student, focused on building and scaling my own software projects alongside my studies. In the past, I’ve interned at companies like RBC, IBM, and Manulife, where I worked on projects involving data, AI, and automation. I’ve also explored areas like design thinking and sustainable development—always aiming to build tech that’s practical, impactful, and rooted in real-world problem-solving.",
+    "I'm currently a **computer science student** at the University of Toronto, focused on building and scaling my own software projects alongside my studies. In the past, I've interned at companies like **RBC**, **IBM**, and **Manulife**, where I worked on projects involving **data engineering**, **AI**, and **automation**. I've also explored areas like **design thinking** and **sustainable development**—always aiming to build tech that's **practical**, **impactful**, and rooted in **real-world problem-solving**.",
   avatarUrl: "/me.png",
   skills: [
     "Software Engineering",
     "Data Engineering",
     "Machine Learning",
-    "Artificial Inteligence",
+    "Artificial Intelligence",
     "Web Development",
     "Go",
     "Postgres",
@@ -26,10 +26,12 @@ export const DATA = {
     "C++",
   ],
   navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" }
+    { href: "/", icon: HomeIcon, label: "Home" },
+    { href: "mailto:sabhi.swe@gmail.com", icon: Icons.email, label: "Email" },
+    { href: "https://www.google.com/maps/place/toronto", icon: MapPin, label: "Location" }
   ],
   contact: {
-    email: "hello@example.com",
+    email: "sabhi.swe@gmail.com",
     tel: "+123456789",
     social: {
       GitHub: {
@@ -48,20 +50,20 @@ export const DATA = {
       },
       X: {
         name: "X",
-        url: "",
+        url: "https://twitter.com/yourusername",
         icon: Icons.x,
 
-        navbar: true,
+        navbar: false,
       },
       Youtube: {
         name: "Youtube",
-        url: "",
+        url: "https://youtube.com/@yourchannel",
         icon: Icons.youtube,
-        navbar: true,
+        navbar: false,
       },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "mailto:sabhi.swe@gmail.com",
         icon: Icons.email,
 
         navbar: false,
@@ -111,7 +113,7 @@ export const DATA = {
   education: [
     {
       school: "University of Toronto",
-      href: "https://buildspace.so",
+      href: "https://www.utoronto.ca",
       degree: "Honours Bachelor of Science in Computer Science",
       logoUrl: "/uoft.png",
       start: "2022",
@@ -122,7 +124,7 @@ export const DATA = {
   projects: [
     {
       title: "UofT Archives",
-      href: "https://chatcollect.com",
+      href: "https://github.com/abhilo/uoftarchives",
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
@@ -139,8 +141,8 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
-          href: "https://chatcollect.com",
+          type: "GitHub",
+          href: "https://github.com/abhilo/uoftarchives",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -150,7 +152,7 @@ export const DATA = {
     },
     {
       title: "Songwarp",
-      href: "https://chatcollect.com",
+      href: "https://github.com/finesden33/Songwarp",
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
@@ -161,8 +163,8 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
-          href: "https://chatcollect.com",
+          type: "GitHub",
+          href: "https://github.com/finesden33/Songwarp",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -172,7 +174,7 @@ export const DATA = {
     },
      {
       title: "Graphimaze",
-      href: "https://chatcollect.com",
+      href: "https://github.com/AlbertKang1004/MazeSolver",
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
@@ -182,12 +184,42 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
-          href: "https://chatcollect.com",
+          type: "GitHub",
+          href: "https://github.com/AlbertKang1004/MazeSolver",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "/maze.png",
+      video:
+        "",
+             },
+    {
+      title: "PhysioApp",
+      href: "https://github.com/csc301-2025-y/project-9-physioapp",
+      dates: "Jan 2024 - Apr 2024",
+      active: true,
+      description:
+        "Developed a rehabilitation-focused workout generator that delivers evidence-based gym routines in seconds. Built with React frontend and Spring Boot backend, featuring AI-powered chatbot for physiotherapy guidance, Excel-based exercise recommendations, and animated exercise demos. Implemented user authentication, progress logging, and personalized workout plans based on muscle groups to strengthen/exclude. Used Docker for containerization and Supabase PostgreSQL for data storage.",
+      technologies: [
+        "React",
+        "Spring Boot",
+        "Java",
+        "PostgreSQL",
+        "Docker",
+        "AI/ML",
+        "Excel API",
+        "JWT Authentication",
+        "Supabase",
+        "Figma",
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/csc301-2025-y/project-9-physioapp",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/physio.png",
       video:
         "",
     },

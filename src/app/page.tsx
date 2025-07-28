@@ -132,7 +132,7 @@ export default function Page() {
           ))}
         </div>
       </section>
-      <section id="skills">
+      <section id="interests">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <h2 className="text-xl font-bold">Interests</h2>
@@ -151,10 +151,11 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <h2 className="text-xl font-bold">Skills</h2>
           </BlurFade>
-          <div className="flex flex-wrap gap-1">
-          <IconCloud iconSlugs={slugs} />
+          <div className="flex justify-center w-full min-h-[250px] sm:min-h-[300px] md:min-h-[350px] relative">
+            <div className="w-full h-full flex justify-center items-center">
+              <IconCloud iconSlugs={slugs} />
+            </div>
           </div>
-
         </div>
       </section>
 
@@ -254,12 +255,12 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm{" "}
+                Want to chat? Just shoot me an{" "}
                 <Link
-                  href={DATA.contact.social.X.url}
+                  href="mailto:sabhi.swe@gmail.com"
                   className="text-blue-500 hover:underline"
                 >
-                  with a direct question on twitter
+                  email
                 </Link>{" "}
                 and I&apos;ll respond whenever I can. I will ignore all
                 soliciting.
